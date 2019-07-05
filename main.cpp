@@ -1,5 +1,6 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQuickStyle>
 
 /**
  * @brief main - Program entry point
@@ -15,6 +16,9 @@ int main(int argc, char *argv[])
 
     // Instantiate the Qt application we'll be piggybacking
     QGuiApplication app(argc, argv);
+
+    // Make stuff look dope
+    QQuickStyle::setStyle("Material");
 
     // Load the UI
     QQmlApplicationEngine engine;
