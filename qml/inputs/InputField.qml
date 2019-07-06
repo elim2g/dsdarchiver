@@ -21,6 +21,7 @@ Item {
     property string label:           "Default Label";
     property string placeholderText: "Default PlaceholderText";
     property alias  text:            _textField.text;
+    property alias  textField:       _textField;
 
     id: root;
     width: parent.width;

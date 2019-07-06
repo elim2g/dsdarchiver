@@ -2,5 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>qml/inputs/InputField.qml</file>
+        <file>qml/inputs/InputCheckbox.qml</file>
     </qresource>
 </RCC>
